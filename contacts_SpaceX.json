@@ -1,0 +1,15 @@
+{
+  "company": "SpaceX",
+  "timestamp": "2026-04-30T01:30:00Z",
+  "contacts": [
+    {
+      "type": "media_page",
+      "url": "https://www.spacex.com/media",
+      "emails": [],
+      "source": "web_extraction"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": ["https://www.spacex.com/media"],
+  "notes": "Página de medios - no se encontraron emails visibles"
+}

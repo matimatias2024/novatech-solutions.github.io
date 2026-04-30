@@ -1,0 +1,15 @@
+{
+  "company": "Microsoft",
+  "timestamp": "2026-04-30T05:00:00Z",
+  "contacts": [
+    {
+      "type": "contact_page",
+      "url": "https://support.microsoft.com/en-us/contactus",
+      "emails": ["support@microsoft.com"],
+      "source": "web_extraction"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": ["https://support.microsoft.com/en-us/contactus"],
+  "notes": "Correos extraídos directamente de la página de soporte de contacto de Microsoft."
+}

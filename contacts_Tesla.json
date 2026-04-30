@@ -1,0 +1,15 @@
+{
+  "company": "Tesla",
+  "timestamp": "2026-04-30T01:30:00Z",
+  "contacts": [
+    {
+      "type": "ir_page",
+      "url": "https://ir.tesla.com",
+      "emails": [],
+      "source": "web_extraction"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": ["https://ir.tesla.com"],
+  "notes": "Página de inversores - no se encontraron emails visibles"
+}

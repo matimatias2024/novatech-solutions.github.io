@@ -1,0 +1,15 @@
+{
+  "company": "Anthropic",
+  "timestamp": "2026-04-30T01:30:00Z",
+  "contacts": [
+    {
+      "type": "support_page",
+      "url": "https://support.anthropic.com",
+      "emails": [],
+      "source": "web_extraction"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": ["https://support.anthropic.com"],
+  "notes": "Página de soporte oficial - no se encontraron emails visibles"
+}

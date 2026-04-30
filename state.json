@@ -1,0 +1,14 @@
+{
+  "current_step": "ready",
+  "last_company": null,
+  "companies_completed": [],
+  "companies_pending": [
+    "Zapier",
+    "Notion",
+    "Figma",
+    "Canva",
+    "Airtable"
+  ],
+  "total_cycles": 0,
+  "last_updated": "2026-04-29T23:59:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "company": "Stripe",
+  "timestamp": "2026-04-30T01:30:00Z",
+  "contacts": [
+    {
+      "type": "press_page",
+      "url": "https://stripe.com/press",
+      "emails": [],
+      "source": "web_extraction"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": ["https://stripe.com/press"],
+  "notes": "Página de prensa - no se encontraron emails visibles"
+}

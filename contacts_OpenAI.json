@@ -1,0 +1,24 @@
+{
+  "company": "OpenAI",
+  "timestamp": "2026-04-29T23:59:00Z",
+  "contacts": [
+    {
+      "type": "contact_page",
+      "url": "https://www.openai.com/contact",
+      "emails": ["contact@openai.com"],
+      "source": "direct_extraction"
+    },
+    {
+      "type": "help_center",
+      "url": "https://help.openai.com",
+      "notes": "Centro de ayuda oficial de OpenAI",
+      "source": "duckduckgo_search"
+    }
+  ],
+  "method": "web_search_verified",
+  "urls_checked": [
+    "https://www.openai.com/contact",
+    "https://help.openai.com"
+  ],
+  "notes": "Extraccion exitosa - se encontro email de contacto directo"
+}
