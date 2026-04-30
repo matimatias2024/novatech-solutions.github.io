@@ -1,14 +1,35 @@
 {
   "current_step": "ready",
-  "last_company": null,
-  "companies_completed": [],
+  "last_company": "Zapier",
+  "companies_completed": [
+    {
+      "company": "Zapier",
+      "emails": [
+        "support@zapier.com",
+        "partners@zapier.com"
+      ]
+    },
+    {
+      "company": "Notion",
+      "emails": [
+        "support@makenotion.com",
+        "press@makenotion.com"
+      ]
+    },
+    {
+      "company": "Zapier",
+      "emails": [
+        "support@zapier.com",
+        "partners@zapier.com"
+      ],
+      "timestamp": "2026-04-30T03:50:53Z"
+    }
+  ],
   "companies_pending": [
-    "Zapier",
-    "Notion",
     "Figma",
     "Canva",
     "Airtable"
   ],
-  "total_cycles": 0,
+  "total_cycles": 3,
   "last_updated": "2026-04-29T23:59:00Z"
 }
