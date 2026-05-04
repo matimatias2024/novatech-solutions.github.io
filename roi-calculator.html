@@ -21,53 +21,42 @@
     <div class="container">
         <h1>Calculadora de ROI Inmobiliario</h1>
         <p>Descubre el retorno de inversión potencial de tu próximo departamento en Santiago.</p>
-        
         <div class="form-group">
             <label for="price">Precio de Compra (CLP)</label>
             <input type="number" id="price" placeholder="Ej: 100000000">
         </div>
-        
         <div class="form-group">
             <label for="rent">Arriendo Mensual Estimado (CLP)</label>
             <input type="number" id="rent" placeholder="Ej: 400000">
         </div>
-
         <div class="form-group">
             <label for="email">Tu Email (para recibir el reporte completo)</label>
             <input type="email" id="email" placeholder="tu@email.com">
         </div>
-
         <button onclick="calculateROI()">Calcular ROI</button>
-
         <div id="result" class="result">
             <h3>Resultado:</h3>
             <p>Rentabilidad Bruta Anual: <span id="roi-value"></span>%</p>
             <p><small>Te hemos enviado un reporte detallado a tu correo.</small></p>
         </div>
     </div>
-
     <script>
         function calculateROI() {
             const price = parseFloat(document.getElementById('price').value);
             const rent = parseFloat(document.getElementById('rent').value);
             const email = document.getElementById('email').value;
-
             if (!price || !rent || !email) {
                 alert('Por favor completa todos los campos');
                 return;
             }
-
             const annualRent = rent * 12;
             const roi = ((annualRent / price) * 100).toFixed(2);
-
             document.getElementById('roi-value').innerText = roi;
             document.getElementById('result').style.display = 'block';
-
-            // Simulación de captura de lead
+            // Simulacion de captura de lead
             console.log(`Lead capturado: ${email}, Presupuesto: ${price}, ROI: ${roi}%`);
-            // Aquí se conectaría con el backend de NovaTech
+            // Aqui se conectaria con el backend de NovaTech
         }
     </script>
 </body>
 </html>
-    
