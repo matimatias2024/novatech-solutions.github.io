@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +19,7 @@
 <body>
     <div class="container">
         <h1>Calculadora de ROI Inmobiliario</h1>
-        <p>Descubre el retorno de inversión potencial de tu próximo departamento en Santiago.</p>
+        <p>Descubre el retorno de inversion potencial de tu proximo departamento en Santiago.</p>
         <div class="form-group">
             <label for="price">Precio de Compra (CLP)</label>
             <input type="number" id="price" placeholder="Ej: 100000000">
@@ -53,9 +52,13 @@
             const roi = ((annualRent / price) * 100).toFixed(2);
             document.getElementById('roi-value').innerText = roi;
             document.getElementById('result').style.display = 'block';
-            // Simulacion de captura de lead
-            console.log(`Lead capturado: ${email}, Presupuesto: ${price}, ROI: ${roi}%`);
-            // Aqui se conectaria con el backend de NovaTech
+            console.log('Lead capturado: ' + email + ', Presupuesto: ' + price + ', ROI: ' + roi + '%');
+            // Enviar datos a NovaTech (simulado)
+            fetch('https://httpbin.org/post', {
+                method: 'POST',
+                body: JSON.stringify({ email: email, budget: price, roi: roi }),
+                headers: { 'Content-Type': 'application/json' }
+            });
         }
     </script>
 </body>
